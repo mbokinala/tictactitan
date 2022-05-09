@@ -20,6 +20,11 @@ public class Game {
             TicTacToeAlgorithm currentPlayer = (currentPlayerNumber == 1 ) ? playerA : playerB;
 
             int[] move = currentPlayer.nextMove(board);
+
+            if (board[move[0]][move[1]] != 0) {
+                throw new Error("Algorithm " + currentPlayer.getName() + " made an invalid move");
+            }
+
             board[move[0]][move[1]] = currentPlayerNumber;
 
             // switch the current player
