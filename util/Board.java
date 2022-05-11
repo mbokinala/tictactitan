@@ -1,3 +1,4 @@
+package util;
 public class Board{
   // 0 = empty
   // 1 = player 1 pieces

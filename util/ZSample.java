@@ -1,3 +1,4 @@
+package util;
 import java.util.Scanner;
 public class ZSample{
   public static int[] strat(int[][] b, SavedData memory){

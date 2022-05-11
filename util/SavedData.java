@@ -1,3 +1,4 @@
+package util;
 public class SavedData{
   public int[] lastMove=null;
   public String s=null;

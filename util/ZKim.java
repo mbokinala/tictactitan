@@ -1,3 +1,4 @@
+package util;
 public class ZKim{
   public static int[] strat(int[][] b, SavedData memory){
     int[] rv = {(int)(Math.random()*b.length),(int)(Math.random()*b[0].length)};

@@ -1,5 +1,8 @@
+import util.Ohmok;
+
 class Main {
   public static void main(String[] args) {
-    System.out.println("hi");
+    Ohmok a = new Ohmok();
+    a.play(0, -1);
   }
 }

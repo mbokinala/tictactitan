@@ -1,3 +1,4 @@
+package util;
 import java.util.ArrayList;
 public class Strategy{
   private static ArrayList<StratFn> allStrats = new ArrayList<StratFn>();

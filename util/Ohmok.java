@@ -1,3 +1,4 @@
+package util;
 import java.util.Scanner;
 public class Ohmok{
   private static Scanner scan = new Scanner(System.in);
